@@ -1,0 +1,6 @@
+[Unit]
+Description=Run script to activate a relay
+
+[Service]
+WorkingDirectory=/home/Pi/Programs/rpi_relay_controller/
+ExecStart=/home/Pi/Programs/rpi_relay_controller/rpi_relay_controller

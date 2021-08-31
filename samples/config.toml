@@ -1,0 +1,12 @@
+#Sample configuration file for the rpi_relay_controller
+
+#Path which to contact the rpi-bme280-server for weather info
+sensor_path = "http://localhost:3030/weather"
+#BCM GPIO pin number which to control
+relay_pin = 4
+#Duration in seconds that the relay stays on
+relay_duration_secs = 3600
+#Humidity that is considered too high for operation, depends on use case
+humidity_high = 70.0
+#Temperature that is considered too low for operation, depends on use case
+temperature_low = 10.0

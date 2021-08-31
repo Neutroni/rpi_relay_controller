@@ -1,0 +1,10 @@
+[Unit]
+Description=Activate a relay
+
+[Timer]
+#See https://man.archlinux.org/man/systemd.time.7.en#CALENDAR_EVENTS for info
+OnCalendar=*-*-* 21:00:00
+
+[Install]
+WantedBy=timers.target
+
